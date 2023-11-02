@@ -1,0 +1,8 @@
+syntax="proto3";
+
+message my_message_t {
+    string mystring = 2;
+    int32  myint = 3;
+    float  myfloat = 4;
+    bool   mybool = 5;
+}
