@@ -16,9 +16,10 @@ Does not use CMake
 - protobuf library (libprotobuf.so.20)
 - GCC
 
-g++ -v : 
-  
+Tested with this GCC version:
+
 ```
+user@host:path>g++ -v
 Using built-in specs.
 COLLECT_GCC=g++
 COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper
@@ -46,4 +47,4 @@ protoc --cpp_out=./outputs my_message.proto;\
 ```
 "q" to quit less
 
-Google_textpb: https://protobuf.dev/reference/protobuf/textformat-spec
+[Google_textpb]: https://protobuf.dev/reference/protobuf/textformat-spec
