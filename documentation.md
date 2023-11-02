@@ -1,7 +1,8 @@
 # Description
 
 Minimal example to show how to compile Google Protobuf and 
-use the [text format (textproto, .txtpb)][Google_textpb].
+use the [text format (textproto, .txtpb)][Google_textpb] in 
+C++.
 
 Does not use CMake
 
